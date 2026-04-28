@@ -17,4 +17,4 @@ A clean and simple calculator built using HTML, CSS, and JavaScript.
 ![Calculator](calculator.png)
 
 ## 🔗 Live Demo
-(You will add this after deploying)
+https://anjukumaradepu-2005.github.io/calculator-project/
