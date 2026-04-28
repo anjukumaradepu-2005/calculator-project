@@ -3,7 +3,7 @@
 A clean and simple calculator built using HTML, CSS, and JavaScript.
 
 ## 🚀 Features
-- Basic operations (+, -, *, /)
+- Basic operations (+, -, *, /, %)
 - Keyboard support
 - Delete and clear functions
 - Responsive UI
@@ -14,10 +14,7 @@ A clean and simple calculator built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## 📸 Preview
-(Add your screenshot here later)
+![Calculator](calculator.png)
 
 ## 🔗 Live Demo
 (You will add this after deploying)
-
-## 📸 Preview
-![Calculator](calculator.png)
