@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+.calculator {
+    background: #1e1e2f;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #2d2d44;
+    color: #fff;
+    box-sizing: border-box;   
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    gap: 12px;
+}
+
+button {
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    background: #3b3b5c;
+    color: white;
+}
+
+/* Default buttons */
+button {
+    background: #3b3b5c;
+    color: white;
+}
+
+/* Clear button */
+.clear {
+    background: #ff4757;
+}
+
+/* Delete button */
+.delete {
+    background: #ffa502;
+}
+
+/* Operator buttons */
+.operator {
+    background: #ff9f43;
+}
+
+/* Equals button */
+.equals {
+    background: #00d2d3;
+    grid-column: 4;      /* keep in right column */
+    grid-row: span 2;    /* make it taller */
+}
+
+/* Hover effect */
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+button.zero {
+    grid-column: span 2;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.operator {
+    background: #ff9f43;
+}
