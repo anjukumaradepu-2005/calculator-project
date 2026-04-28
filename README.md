@@ -18,3 +18,6 @@ A clean and simple calculator built using HTML, CSS, and JavaScript.
 
 ## 🔗 Live Demo
 (You will add this after deploying)
+
+## 📸 Preview
+![Calculator](calculator.png)
